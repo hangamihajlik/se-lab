@@ -14,6 +14,7 @@ public class TorpedoStore {
 
   private int torpedoCount = 0;
 
+  // for reuse of Random number generation
   private Random generator;
 
   public TorpedoStore(int numberOfTorpedos){
